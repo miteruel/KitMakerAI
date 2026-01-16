@@ -8,7 +8,8 @@ uses
   KitMaker.Pdf.Extractor in 'KitMaker.Pdf.Extractor.pas',
   KitMaker.Utils in 'KitMaker.Utils.pas',
   uMakerAi.Chat.G4F in 'uMakerAi.Chat.G4F.pas',
-  DX.Pdf.Dynamic in 'DX.Pdf.Dynamic.pas';
+  DX.Pdf.Dynamic in 'DX.Pdf.Dynamic.pas',
+  MitMaker.OCR.Delegation in 'MitMaker.OCR.Delegation.pas';
 
 (*
 uses

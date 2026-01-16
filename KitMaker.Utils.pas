@@ -80,7 +80,7 @@ begin
   if tex <> '' then
   begin
 
-    TaskA -
+    TaskA >
     procedure
     begin
       FMemoPrompt.BeginUpdate;

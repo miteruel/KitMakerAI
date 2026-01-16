@@ -225,6 +225,7 @@
         <DCCReference Include="KitMaker.Utils.pas"/>
         <DCCReference Include="uMakerAi.Chat.G4F.pas"/>
         <DCCReference Include="DX.Pdf.Dynamic.pas"/>
+        <DCCReference Include="MitMaker.OCR.Delegation.pas"/>
         <None Include="README.md"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
@@ -520,6 +521,12 @@
                 <DeployFile LocalName="Win64\Debug\MiKitOCRDemo.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win64">
                         <RemoteName>MiKitOCRDemo.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Win64\Debug\MiKitOCRDemo.rsm" Configuration="Debug" Class="DebugSymbols">
+                    <Platform Name="Win64">
+                        <RemoteName>MiKitOCRDemo.rsm</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

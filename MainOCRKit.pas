@@ -299,7 +299,7 @@ end;
 procedure TFormOCRKIT.AIMainError(Sender: TObject; const ErrorMsg: string;
   Exception: Exception; const AResponse: IHTTPResponse);
 begin
-  TaskA -
+  TaskA >
   procedure
   begin
       ShowMessage(ErrorMsg);
@@ -376,7 +376,7 @@ begin
       Res := AIMain.AddMessageAndRun(Prompt + ' ' + edtPDFile.Text,
         'user', [MF]);
 
-      TaskA -
+      TaskA >
        procedure
         begin
           MemoChat.Lines.Add(Res);
@@ -389,7 +389,7 @@ begin
     procedure
     begin
       Res := AIMain.AddMessageAndRun(Prompt, 'user', []);
-      TaskA -
+      TaskA >
       procedure
       begin
         MemoChat.Lines.Add(Res);
@@ -585,7 +585,7 @@ begin
     begin
       Res := AiOllamaPdfTool1.ExtractText(OpenDialog1.FileName);
 
-      TaskA -
+      TaskA >
       procedure
       begin
         MemoChat.Text := Res;
@@ -647,3 +647,5 @@ begin
 end;
 
 end.
+
+voludi_io

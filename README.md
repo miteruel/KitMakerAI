@@ -1,23 +1,30 @@
 ﻿# MiKitOCRDemo
 
-# 🌟 Overview
+# 🌟 Descripción
 
-El proyecto  realizado en el taller
+Proyecto  realizado en el taller
 "Acceso al LLM mediante componentes de tipo Chat".
 
 Curso "Microcredencial Implementación y uso de IA generativa en Delphi".
 
-Usando MakerAi, Pdfium4D, y algo más.
 
 La intención es que sirva de semilla para el desarrollo de diferentes
-herramientas y complementos para  MakerAI.
+herramientas y complementos para  MakerAI. Usando MakerAi, Pdfium4D, y algo más.
 
-Probado en Windows64 y Android64 .
+* Creacion y registro de nuevos motortes TAiChat. Usando G4F (Chat4Free).
+* Delegación entre modelos. Delega pdftool de un proveedor para usar el ocr vision de otro modelo.
+* Uso de  Pdfium para extraer imagenes de un pdf (Probado en Windows64 y Android64).
+
+Aunque tiene dependencias minimas, necesitas MakerAI y los binarios de pdfium
+https://github.com/bblanchon/pdfium-binaries/releases
 
 
 ## KitMaker Sample
 
 Selecciona los modelos a usar.
+
+* Driver LLM : Es el motor y modelo usado para hacer el chat.
+* Driver OCR: Es el motor y modelo usado para hacer el OCR.
 
   ![Kit screenshot](imagenes/Config.png)
 
@@ -38,13 +45,12 @@ Compila  MITPackMakerAI.dpk, para instalar los nuevos componentes.
 
 ## uMakerAi.Chat.G4F
 
-     Registra varios proveedores de acceso abierto aunque limitado.
+* Registra varios proveedores de acceso abierto aunque limitado.
+* TAiG4FOllama,TAiG4FPollinations,TAiG4FNvidia,TAiG4FGroqChat,TAiG4FGemini
+* https://github.com/xtekky/gpt4free
+* https://g4f.dev/
 
-     https://github.com/xtekky/gpt4free
 
-     https://g4f.dev/
-
-     TAiG4FOllama,TAiG4FPollinations,TAiG4FNvidia,TAiG4FGroqChat,TAiG4FGemini
 
 ##  uMakerAI.Ollama.PdfIUM
 
