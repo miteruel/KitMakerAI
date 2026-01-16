@@ -2,7 +2,12 @@
 
 # 🌟 Overview
 
-El proyecto es una compilacion de ideas, usando MakerAi, Pdfium4D, y algo más.
+El proyecto  realizado en el taller
+"Acceso al LLM mediante componentes de tipo Chat".
+
+Curso "Microcredencial Implementación y uso de IA generativa en Delphi".
+
+Usando MakerAi, Pdfium4D, y algo más.
 
 La intención es que sirva de semilla para el desarrollo de diferentes
 herramientas y complementos para  MakerAI.
